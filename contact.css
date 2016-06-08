@@ -1,0 +1,137 @@
+	body{ 
+    background-image: url("contactbg.jpg"); 
+    height: 900px; 
+    width: 100%; 
+    } 
+    
+    .maindiv{ 
+    height: 900px; 
+    width: 1380px; 
+    } 
+    
+ ul.menu{ 
+    width: 630px; 
+    position: relative; 
+    top: 30px; 
+    left:570px; 
+    } 
+    
+ul.menu li{ 
+    list-style: none; 
+    display: inline-block; 
+    
+    } 
+    
+ ul.menu li a{ 
+    display: block; 
+    background: black; 
+    color: white; 
+    text-decoration: none; 
+    width: 140px; 
+    text-align: center; 
+    padding: 10px 0; 
+    
+    transition: 0.5s; 
+    } 
+    
+ ul.menu li a:hover{ 
+    color: black; 
+    background: white; 
+    } 
+    
+.text{ 
+    width: 200px; 
+    height: 50px; 
+    position: absolute; 
+    padding-top: 30px; 
+    padding-left: 600px; 
+    font-family: fantasy; 
+    color: aqua; 
+    } 
+    
+.vvid{ 
+    height: 570px; 
+    width: 800px; 
+    background: beige; 
+    position: absolute; 
+    margin: 130px 280px; 
+    border-radius: 40px; 
+    border: 5px solid black; 
+    } 
+    
+.name{ 
+    width: 390px; 
+    height: 80px; 
+    color: grey; 
+    float: left; 
+    
+    } 
+    
+.surname{ 
+    width: 390px; 
+    height: 80px; 
+    color: grey; 
+    float: left; 
+    } 
+    
+.e-mail{ 
+    width: 780px; 
+    height: 80px; 
+    color: grey; 
+    float: left; 
+    margin: 0 auto; 
+    } 
+    
+.input1{ 
+    width: 348px; 
+    height: 30px; 
+    font-size: 1.5em; 
+    margin: 30px 20px; 
+    border: none; 
+    padding: 10px 10px; 
+    
+    } 
+    
+.input2{ 
+    width: 700px; 
+    height: 30px; 
+    font-size: 1.5em; 
+    margin: 30px 40px; 
+    border: none; 
+    padding: 10px 10px; 
+    } 
+    
+    .message{ 
+    width: 780px; 
+    height: 200px; 
+    color: grey; 
+    float: left; 
+    margin: 0 auto; 
+    } 
+    
+.input3{ 
+        width: 710px; 
+        height: 150px; 
+        font-size: 1.5em; 
+        margin: 30px 40px; 
+        border: none; 
+        padding-left: 10px; 
+    } 
+    
+.submit{ 
+        width: 200px; 
+        height: 100px; 
+        float: left; 
+        
+    } 
+    
+.send{ 
+        background-color: black; 
+        color: white; 
+        width: 150px; 
+        height: 60px; 
+        margin: 20px 40px; 
+        cursor: pointer; 
+        border-radius: 20px; 
+        font-size: 1.2em; 
+    }

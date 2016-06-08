@@ -1,0 +1,125 @@
+body{
+    background-image: url("stone.jpg");
+	width: 1340px;
+	height: 1640px;
+	margin: 0 auto;
+}
+
+.fotka{
+	display: block;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 170px;
+	border: 10px double white;
+}
+
+.text{
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 26px;
+	position: absolute;
+	right: 120px;
+	top: 170px;
+	width: 800px;
+	height: 420px;
+	border-radius: 30px;
+}
+
+ul.menu{
+	width: 630px;
+	position: absolute;
+	top: 30px;
+	right: 100px;
+}
+
+ul.menu li{
+		list-style: none;
+		display: inline-block;
+		
+}
+
+ul.menu li a{
+	display: block;
+	background: Dimgray;
+	color: white;
+	text-decoration: none;
+	width: 140px;
+	text-align: center;
+	padding: 10px 0;
+
+	transition: 0.5s;
+}
+
+ul.menu li a:hover{
+	color: black;
+	background: white;	
+}
+
+ul.spusok{
+	width: 300px;
+	
+}
+
+ul.spusok li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+ul.spusok li a{
+	display: block;
+	background: white;
+	color: black;
+	text-decoration: none;
+	width:200px;
+	height: 35px;
+	text-align: center;
+	box-shadow: 3px 3px 4px Aquamarine;
+	font-size: 25px;
+	padding: 5px;
+	transition: 4s;
+	
+}
+
+
+ul.spusok li a:hover{
+	background: midnightblue;
+	color: white;
+	width: 500px;
+	transition: 1s;
+	text-shadow: none;
+}
+
+.teext{
+	margin: 0 auto;
+	width: 1300px;
+	height: 1150px;
+	display: block;
+	font-size: 26px;
+	text-align: left;
+	background:  linear-gradient(to bottom, rgba(198,244,190,1) 1%,rgba(35,234,231,1) 22%,rgba(77,97,160,1) 46%,rgba(30,206,165,1) 66%,rgba(183,222,237,1) 100%); 
+	border-radius: 30px;
+	padding-left: 10px;
+}
+
+.inf{
+	display: block;
+	width: 550px;
+	height: 370px;
+	position: absolute;
+	top: 215px;
+	right: 35px;
+	font-size: 26px;
+	color: white;
+	
+}
+
+hr{
+	color: white;
+}
+	
+.text b{
+	display: block;
+	left: 50px;
+}
