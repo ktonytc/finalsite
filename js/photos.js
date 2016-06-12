@@ -1,23 +1,24 @@
 	function changeImage(){
 	var image = document.getElementById("image");
 	
-	if(image.src.match("1")){
-		image.src = "7.JPG";
-		
-	} else if(image.src.match("2")){
-		image.src = "3.JPG";
-	} else if( image.src.match("3")){
-		image.src = "4.JPG";
-	} else if( image.src.match("4")){
-		image.src = "5.JPG";
-	} else if( image.src.match("5")){
-		image.src = "6.JPG";
-	} else if( image.src.match("6")){
-		image.src = "7.JPG";
-	} else if( image.src.match("7")){
-		image.src = "9.JPG";
-	} else if( image.src.match("9")){
-		image.src = "10.JPG";
+	if (image.getAttribute('src')=="1.JPG") {
+        image.src = "2.JPG";
+	} else if (image.getAttribute('src')=="2.JPG") {
+        image.src = "3.JPG";
+	} else if (image.getAttribute('src')=="3.JPG") {
+        image.src = "4.JPG";
+	} else if (image.getAttribute('src')=="4.JPG") {
+        image.src = "5.JPG";
+	} else if (image.getAttribute('src')=="5.JPG") {
+        image.src = "6.JPG";
+	} else if (image.getAttribute('src')=="6.JPG") {
+        image.src = "7.JPG";
+	} else if (image.getAttribute('src')=="7.JPG") {
+        image.src = "8.JPG";
+	} else if (image.getAttribute('src')=="8.JPG") {
+        image.src = "9.JPG";
+	} else if (image.getAttribute('src')=="9.JPG") {
+        image.src = "10.JPG";
 	} else {
 		image.src = "1.JPG";
 	}
