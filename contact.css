@@ -1,137 +1,284 @@
-	body{ 
-    background-image: url("water.jpg"); 
-    height: 900px; 
-    width: 100%; 
-    } 
+body{
+	background-image: url("contactbg.jpg");
+	background-repeat: no-repeat;
+	height: 850px;
+	width: 1380px
+}
+
+.maindiv{
+	height: 100px;
+	width: 1380px;
+}
+
+ul.menu{
+    width: 630px;
+    margin-left: 600px;
+
+}
+
+ul.menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+ul.menu li a{
+    display: block;
+    background: black;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    padding: 10px 0;
     
-.maindiv{ 
-    height: 900px; 
-    width: 1380px; 
-    } 
-    
- ul.menu{ 
-    width: 630px; 
-    position: relative; 
-    top: 30px; 
-    left:570px; 
-    } 
-    
-ul.menu li{ 
-    list-style: none; 
-    display: inline-block; 
-    
-    } 
-    
- ul.menu li a{ 
-    display: block; 
-    background: black; 
-    color: white; 
-    text-decoration: none; 
-    width: 140px; 
-    text-align: center; 
-    padding: 10px 0; 
-    
-    transition: 0.5s; 
-    } 
-    
- ul.menu li a:hover{ 
-    color: black; 
+    transition: 0.5s;
+}
+
+ul.menu li a:hover{
+    color: black;
     background: white; 
-    } 
-    
-.text{ 
-    width: 200px; 
-    height: 50px; 
-    position: absolute; 
-    padding-top: 30px; 
-    padding-left: 600px; 
-    font-family: fantasy; 
-    color: aqua; 
-    } 
-    
-.vvid{ 
-    height: 570px; 
-    width: 800px; 
-    background: beige; 
-    position: absolute; 
-    margin: 130px 280px; 
-    border-radius: 40px; 
-    border: 5px solid black; 
-    } 
-    
+}
+
+.text{
+    width: 730px;
+    height: 50px;
+    font-family: fantasy;
+    color: aqua;
+    float: left;
+    font-size: 2em;
+    padding-left: 610px;
+    padding-top: 10px;
+}
+
+
+.vvid{
+	height: 570px;
+	width: 800px;
+	background: beige;
+	
+	margin: 0 auto;
+	border-radius: 40px;
+	border: 5px solid black;
+}
+
 .name{ 
-    width: 390px; 
-    height: 80px; 
-    color: grey; 
-    float: left; 
-    
-    } 
-    
-.surname{ 
-    width: 390px; 
-    height: 80px; 
-    color: grey; 
-    float: left; 
-    } 
-    
-.e-mail{ 
-    width: 780px; 
-    height: 80px; 
-    color: grey; 
-    float: left; 
-    margin: 0 auto; 
-    } 
-    
-.input1{ 
-    width: 348px; 
-    height: 30px; 
-    font-size: 1.5em; 
-    margin: 30px 20px; 
-    border: none; 
-    padding: 10px 10px; 
-    
-    } 
-    
-.input2{ 
-    width: 700px; 
-    height: 30px; 
-    font-size: 1.5em; 
-    margin: 30px 40px; 
-    border: none; 
-    padding: 10px 10px; 
-    } 
-    
-    .message{ 
-    width: 780px; 
-    height: 200px; 
-    color: grey; 
-    float: left; 
-    margin: 0 auto; 
-    } 
-    
-.input3{ 
-        width: 710px; 
-        height: 150px; 
-        font-size: 1.5em; 
-        margin: 30px 40px; 
-        border: none; 
-        padding-left: 10px; 
-    } 
-    
-.submit{ 
-        width: 200px; 
-        height: 100px; 
-        float: left; 
-        
-    } 
-    
-.send{ 
-        background-color: black; 
-        color: white; 
-        width: 150px; 
-        height: 60px; 
-        margin: 20px 40px; 
-        cursor: pointer; 
-        border-radius: 20px; 
-        font-size: 1.2em; 
-    }
+	width: 390px;
+	height: 80px;
+	color: grey;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+.surname{
+	width: 390px;
+	height: 80px;
+	color: grey;
+	float: left;
+}
+
+.e-mail{
+	width: 780px;
+	height: 80px;
+	color: grey;
+	float: left;
+	margin: 0 auto;
+}
+
+.input1{
+	width: 310px;
+	height: 30px;
+	font-size: 1.5em;
+	margin: 30px 20px;
+	border: none;
+	padding: 10px 10px;
+	
+}
+
+.input2{
+	width: 700px;
+	height: 30px;
+	font-size: 1.5em;
+	margin: 30px 40px;
+	border: none;
+	padding: 10px 10px;	
+}
+
+.message{
+	width: 780px;
+	height: 200px;
+	color: grey;
+	float: left;
+	margin: 0 auto;
+}
+
+.input3{
+	width: 710px;
+	height: 150px;
+	font-size: 1.5em;
+	margin: 10px 40px;
+	border: none;
+	padding-left: 10px;	
+	padding-top: 0;
+}
+
+.submit{
+	width: 200px;
+	height: 100px;
+	float: left;
+	
+}
+
+.send{
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 60px;
+	margin: 20px 40px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 1.2em;
+}
+
+
+
+.top{
+	width: 1380px;
+	height: 80px;
+	float: left;
+	padding-top: 30px;
+}
+
+.center{
+	width: 1380px;
+	height: 600px;
+	float: left;
+}
+
+.footer{
+	width: 1380px;
+	height: 76px;
+	background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+	float: left;
+	margin: 0 auto;
+}
+
+.foot1{
+	width: 253px;
+	height: 100%;
+	float: left;
+	background: yellow;
+}
+
+.footer2{
+	float: left;
+	width: 1380px;
+	height: 25px;
+	background: grey;
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.foot2{
+	list-style: none;
+	width: 170px;
+	height: 76px;
+	float: left;
+	vertical-align: top;
+	margin: 1px 35px;
+	
+}
+
+ul.foot2 li{
+	font-size: 14px;
+	margin-top: 7px;
+	padding-left: 0px;
+}
+
+ul.foot2 li a{
+	text-align: center left;
+	color: white;
+	display: block;
+	text-decoration: none;
+	margin-top: 5px;
+	background: url(little_mark.png) no-repeat center left;
+	padding-left: 15px;
+	padding-top: 0px;
+}
+
+ul.foot2 li a:hover{
+	text-decoration: underline;
+	background-image: url(little_mark_hover.png);
+}
+
+.foot3{
+	float: left;
+	padding-top: 27px;
+	text-align: center;
+	color: black;
+	margin-left: 20px;
+	background: white;
+	height: 76px;
+	width: 270px;
+	float: left;
+}
+
+.foot4{
+	width: 200px;
+	height: 76px;
+	float: left;
+	padding: 10px 30px;
+}
+
+p.tel{
+	font-size: 20px;
+	color: white;
+	padding-top: 0px;
+	display: block;
+	float: left;
+	margin: 3px 40px;
+}
+
+.tel span{
+	font-size: 14px;
+	color: #4bafff;
+}
+
+.soc{
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+	width: 240px;
+	float: left;
+}
+
+.soc a{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	margin-right: 5px;
+}
+
+.vk{
+	background: url(vk_round.png);
+}
+
+.fb{
+	background: url(fb_f.png);
+}
+
+.twit{
+	background: url(twit_f.png);
+}
+
+.inst{
+	background: url(insta.png);
+}
+
+.odnok{
+	background:  url(odnokl_f.png);
+}

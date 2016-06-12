@@ -1,59 +1,24 @@
-body{
-    background-image: url("stone.jpg");
-	width: 1340px;
-	height: 1640px;
-	margin: 0 auto;
-}
-
-
-
-ul.menu{
-	width: 630px;
-	position: absolute;
-	top: 30px;
-	right: 100px;
-}
-
-ul.menu li{
-		list-style: none;
-		display: inline-block;
+	function changeImage(){
+	var image = document.getElementById("image");
+	
+	if(image.src.match("1")){
+		image.src = "7.jpg";
 		
+	} else if(image.src.match("2")){
+		image.src = "3.jpg";
+	} else if( image.src.match("3")){
+		image.src = "4.jpg";
+	} else if( image.src.match("4")){
+		image.src = "5.jpg";
+	} else if( image.src.match("5")){
+		image.src = "6.jpg";
+	} else if( image.src.match("6")){
+		image.src = "7.jpg";
+	} else if( image.src.match("7")){
+		image.src = "9.jpg";
+	} else if( image.src.match("9")){
+		image.src = "10.jpg";
+	} else {
+		image.src = "1.jpg";
+	}
 }
-
-ul.menu li a{
-	display: block;
-	background: Dimgray;
-	color: white;
-	text-decoration: none;
-	width: 140px;
-	text-align: center;
-	padding: 10px 0;
-
-	transition: 0.5s;
-}
-
-ul.menu li a:hover{
-	color: black;
-	background: white;	
-}
-
-ul.spusok{
-	width: 300px;
-	
-}
-
-.text{
-	display: block;
-	color: white;
-	text-align: center;
-	font-family: italic;
-	font-size: 26px;
-	position: absolute;
-	right: 120px;
-	top: 50px;
-	width: 800px;
-	height: 420px;
-	border-radius: 30px;
-}
-
-	
