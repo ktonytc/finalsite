@@ -5,10 +5,7 @@ body{
 	width: 1380px
 }
 
-.maindiv{
-	height: 100px;
-	width: 1380px;
-}
+
 
 ul.menu{
     width: 630px;
@@ -161,6 +158,7 @@ ul.menu li a:hover{
 	background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
 	float: left;
 	margin: 0 auto;
+	margin-left: -8px;
 }
 
 .foot1{
@@ -179,6 +177,7 @@ ul.menu li a:hover{
 	padding-top: 5px;
 	text-align: center;
 	margin: 0 auto;
+	margin-left: -8px;
 }
 
 

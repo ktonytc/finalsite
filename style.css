@@ -1,8 +1,9 @@
 body{
  background-image: url("inglass2.jpg");
-
+ background-repeat: no-repeat;
+ height: 950px;
 }
- 
+
 
 ul.menu{
 	width: 630px;
@@ -52,4 +53,134 @@ ul.menu li a:hover{
 	right: 80px;
 	font-size: 4.5em;
 	color: white;
+}
+
+.footer{ 
+width: 1380px; 
+height: 76px; 
+background: linear-gradient(to bottom, #45484d 0%,#000000 100%); 
+float: left; 
+margin-top: 900px;
+margin-left: -8px; 
+} 
+
+.foot1{ 
+width: 253px; 
+height: 100%; 
+float: left; 
+background: yellow; 
+} 
+
+.footer2{ 
+float: left; 
+width: 1380px; 
+height: 25px; 
+background: grey; 
+color: white; 
+padding-top: 5px; 
+text-align: center; 
+margin: 0 auto; 
+margin-left: -8px; 
+} 
+
+
+
+.foot2{ 
+list-style: none; 
+width: 170px; 
+height: 76px; 
+float: left; 
+vertical-align: top; 
+margin: 1px 35px; 
+
+} 
+
+ul.foot2 li{ 
+font-size: 14px; 
+margin-top: 7px; 
+padding-left: 0px; 
+} 
+
+ul.foot2 li a{ 
+text-align: center left; 
+color: white; 
+display: block; 
+text-decoration: none; 
+margin-top: 5px; 
+background: url(little_mark.png) no-repeat center left; 
+padding-left: 15px; 
+padding-top: 0px; 
+} 
+
+ul.foot2 li a:hover{ 
+text-decoration: underline; 
+background-image: url(little_mark_hover.png); 
+} 
+
+.foot3{ 
+float: left; 
+padding-top: 27px; 
+text-align: center; 
+color: black; 
+margin-left: 20px; 
+background: white; 
+height: 76px; 
+width: 270px; 
+float: left; 
+} 
+
+.foot4{ 
+width: 200px; 
+height: 76px; 
+float: left; 
+padding: 10px 30px; 
+} 
+
+p.tel{ 
+font-size: 20px; 
+color: white; 
+padding-top: 0px; 
+display: block; 
+float: left; 
+margin: 3px 40px; 
+} 
+
+.tel span{ 
+font-size: 14px; 
+color: #4bafff; 
+} 
+
+.soc{ 
+vertical-align: top; 
+margin-top: 20px; 
+margin-left: 20px; 
+width: 240px; 
+float: left; 
+} 
+
+.soc a{ 
+display: inline-block; 
+width: 38px; 
+height: 38px; 
+margin-right: 5px; 
+} 
+
+.vk{ 
+background: url(vk_round.png); 
+} 
+
+.fb{ 
+background: url(fb_f.png); 
+} 
+
+.twit{ 
+background: url(twit_f.png); 
+} 
+
+.inst{ 
+background: url(insta.png); 
+} 
+
+.odnok{ 
+background: url(odnokl_f.png); 
 }
